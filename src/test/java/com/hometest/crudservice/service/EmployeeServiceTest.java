@@ -46,6 +46,10 @@ public class EmployeeServiceTest {
     }
 
     @Test
+    void updateEmployee_InvalidDataFields() {
+    }
+
+    @Test
     void deleteEmployee_NonexistentEmployee() {
     }
 
@@ -56,6 +60,11 @@ public class EmployeeServiceTest {
     @Test
     void addEmployee_DuplicateId() {
     }
+
+    @Test
+    void addEmployee_InvalidDataFields() {
+    }
+
 
     @Test
     void getEmployeeById_NullId() {
